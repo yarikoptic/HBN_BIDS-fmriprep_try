@@ -1,0 +1,1 @@
+mri_convert /mnt/datasets/datalad/crawl-misc/hbn-ls/HBN_BIDS-fmriprep_try1/sourcedata/freesurfer/sub-NDARAG610XL4/mri/rawavg.mgz /mnt/datasets/datalad/crawl-misc/hbn-ls/HBN_BIDS-fmriprep_try1/sourcedata/freesurfer/sub-NDARAG610XL4/mri/orig.mgz --conform

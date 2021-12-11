@@ -1,0 +1,13 @@
+------------------------------
+SUBJECT sub-NDARAG610XL4
+START_TIME Sat Dec 11 02:05:27 UTC 2021
+END_TIME Sat Dec 11 02:20:57 UTC 2021
+RUNTIME_HOURS 0.258
+USER yoh
+HOST smaug
+PROCESSOR x86_64
+OS Linux
+UNAME Linux smaug 5.10.0-0.bpo.3-amd64 #1 SMP Debian 5.10.13-1~bpo10+1 (2021-02-11) x86_64 x86_64 x86_64 GNU/Linux
+VERSION $Id: recon-all,v 1.580.2.16 2017/01/18 14:11:24 zkaufman Exp $
+CMDPATH /opt/freesurfer/bin/recon-all
+CMDARGS -autorecon3 -openmp 8 -subjid sub-NDARAG610XL4 -sd /mnt/datasets/datalad/crawl-misc/hbn-ls/HBN_BIDS-fmriprep_try1/sourcedata/freesurfer -nosphere -nosurfreg -nojacobian_white -noavgcurv -nocortparc -nopial -noparcstats -nocortparc2 -noparcstats2 -nocortparc3 -noparcstats3 -nopctsurfcon -nocortribbon -nobalabels

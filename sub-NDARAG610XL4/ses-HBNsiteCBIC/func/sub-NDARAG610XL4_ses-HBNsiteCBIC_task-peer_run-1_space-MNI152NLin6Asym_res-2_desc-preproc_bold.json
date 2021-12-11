@@ -1,0 +1,8 @@
+{
+  "DelayTime": 0.10000000000000009,
+  "RepetitionTime": 0.8,
+  "SkullStripped": false,
+  "SliceTimingCorrected": true,
+  "StartTime": 0.35,
+  "TaskName": "peer"
+}

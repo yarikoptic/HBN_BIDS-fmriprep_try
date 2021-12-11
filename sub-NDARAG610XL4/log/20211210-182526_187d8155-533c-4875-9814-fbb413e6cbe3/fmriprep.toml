@@ -1,0 +1,79 @@
+[environment]
+cpu_count = 16
+exec_env = "singularity"
+free_mem = 1.1
+overcommit_policy = "heuristic"
+overcommit_limit = "50%"
+nipype_version = "1.7.0"
+templateflow_version = "0.7.1"
+version = "20.2.6"
+
+[execution]
+bids_dir = "/mnt/datasets/datalad/crawl-misc/hbn-ls/HBN_BIDS-fmriprep_try1/sourcedata/bids"
+bids_database_dir = "/mnt/datasets/datalad/crawl-misc/hbn-ls/HBN_BIDS-fmriprep_try1/workdir/20211210-182526_187d8155-533c-4875-9814-fbb413e6cbe3/bids_db"
+bids_description_hash = "ba90d2965c2177b20c972b7b58a57add7bbd188cc33e503f69451b57389958e9"
+boilerplate_only = false
+sloppy = false
+debug = []
+fmriprep_dir = "/mnt/datasets/datalad/crawl-misc/hbn-ls/HBN_BIDS-fmriprep_try1"
+fs_license_file = "/mnt/datasets/datalad/crawl-misc/hbn-ls/HBN_BIDS-fmriprep_try1/containers/licenses/freesurfer"
+fs_subjects_dir = "/mnt/datasets/datalad/crawl-misc/hbn-ls/HBN_BIDS-fmriprep_try1/sourcedata/freesurfer"
+layout = "BIDS Layout: ...-fmriprep_try1/sourcedata/bids | Subjects: 2611 | Sessions: 2611 | Runs: 5970"
+log_dir = "/mnt/datasets/datalad/crawl-misc/hbn-ls/HBN_BIDS-fmriprep_try1/logs"
+log_level = 25
+low_mem = false
+md_only_boilerplate = false
+notrack = false
+output_dir = "/mnt/datasets/datalad/crawl-misc/hbn-ls/HBN_BIDS-fmriprep_try1"
+output_layout = "bids"
+output_spaces = "MNI152NLin6Asym:res-2 anat"
+reports_only = false
+run_uuid = "20211210-182526_187d8155-533c-4875-9814-fbb413e6cbe3"
+participant_label = [ "NDARAG610XL4",]
+templateflow_home = "/home/fmriprep/.cache/templateflow"
+work_dir = "/mnt/datasets/datalad/crawl-misc/hbn-ls/HBN_BIDS-fmriprep_try1/workdir"
+write_graph = false
+
+[workflow]
+anat_only = false
+aroma_err_on_warn = false
+aroma_melodic_dim = -200
+bold2t1w_dof = 6
+bold2t1w_init = "register"
+cifti_output = "91k"
+fmap_bspline = false
+force_syn = false
+hires = true
+ignore = []
+longitudinal = false
+medial_surface_nan = false
+regressors_all_comps = false
+regressors_dvars_th = 1.5
+regressors_fd_th = 0.5
+run_reconall = true
+skull_strip_fixed_seed = false
+skull_strip_template = "OASIS30ANTs"
+skull_strip_t1w = "force"
+slice_time_ref = 0.5
+spaces = "MNI152NLin6Asym:res-2 anat MNI152NLin2009cAsym fsaverage:den-164k"
+use_aroma = false
+use_syn_sdc = false
+
+[nipype]
+crashfile_format = "txt"
+get_linked_libs = false
+memory_gb = 40.0
+nprocs = 16
+omp_nthreads = 8
+plugin = "MultiProc"
+resource_monitor = false
+stop_on_first_crash = false
+
+[seeds]
+master = 35445
+ants = 6528
+numpy = 43999
+
+[nipype.plugin_args]
+maxtasksperchild = 1
+raise_insufficient = false

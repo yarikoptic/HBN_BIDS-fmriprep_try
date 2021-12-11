@@ -1,0 +1,38 @@
+status file for recon-all
+Fri Dec 10 22:15:57 UTC 2021
+#@# Tessellate lh Fri Dec 10 22:15:57 UTC 2021
+#@# Smooth1 lh Fri Dec 10 22:16:02 UTC 2021
+#@# Inflation1 lh Fri Dec 10 22:16:06 UTC 2021
+#@# QSphere lh Fri Dec 10 22:16:33 UTC 2021
+#@# Fix Topology Copy lh Fri Dec 10 22:18:06 UTC 2021
+#@# Fix Topology lh Fri Dec 10 22:18:06 UTC 2021
+#@# Make White Surf lh Fri Dec 10 23:43:02 UTC 2021
+#@# Smooth2 lh Fri Dec 10 23:46:12 UTC 2021
+#@# Inflation2 lh Fri Dec 10 23:46:16 UTC 2021
+#@# Curv .H and .K lh Fri Dec 10 23:46:33 UTC 2021
+#@# Curvature Stats lh Fri Dec 10 23:47:26 UTC 2021
+#@# Sphere lh Fri Dec 10 23:47:29 UTC 2021
+#@# Surf Reg lh Sat Dec 11 00:04:16 UTC 2021
+#@# Jacobian white lh Sat Dec 11 00:29:13 UTC 2021
+#@# AvgCurv lh Sat Dec 11 00:29:15 UTC 2021
+#@# Cortical Parc lh Sat Dec 11 00:29:16 UTC 2021
+#@# Make Pial Surf lh Sat Dec 11 00:29:27 UTC 2021
+#@# Surf Volume lh Sat Dec 11 00:39:04 UTC 2021
+#@# Cortical Parc 2 lh Sat Dec 11 00:39:08 UTC 2021
+#@# Cortical Parc 3 lh Sat Dec 11 00:39:23 UTC 2021
+#@# WM/GM Contrast lh Sat Dec 11 00:39:37 UTC 2021
+recon-all -s sub-NDARAG610XL4 finished without error at Sat Dec 11 00:39:42 UTC 2021
+
+
+
+New invocation of recon-all 
+
+
+
+status file for recon-all
+Sat Dec 11 01:59:39 UTC 2021
+#@# Parcellation Stats lh Sat Dec 11 01:59:39 UTC 2021
+#@# Parcellation Stats 2 lh Sat Dec 11 02:00:34 UTC 2021
+#@# Parcellation Stats 3 lh Sat Dec 11 02:01:01 UTC 2021
+#@# BA_exvivo Labels lh Sat Dec 11 02:01:25 UTC 2021
+recon-all -s sub-NDARAG610XL4 finished without error at Sat Dec 11 02:05:22 UTC 2021

@@ -1,0 +1,9 @@
+Logfile for pctsurfcon
+Sat Dec 11 01:22:30 UTC 2021
+setenv SUBJECTS_DIR /mnt/datasets/datalad/crawl-misc/hbn-ls/HBN_BIDS-fmriprep_try1/sourcedata/freesurfer
+cd /mnt/datasets/datalad/crawl-misc/hbn-ls/HBN_BIDS-fmriprep_try1/sourcedata/freesurfer/sub-NDARAG610XL4/scripts
+/opt/freesurfer/bin/pctsurfcon
+$Id: pctsurfcon,v 1.15 2016/02/12 21:43:15 zkaufman Exp $
+Linux smaug 5.10.0-0.bpo.3-amd64 #1 SMP Debian 5.10.13-1~bpo10+1 (2021-02-11) x86_64 x86_64 x86_64 GNU/Linux
+FREESURFER_HOME /opt/freesurfer
+Cleaning up
